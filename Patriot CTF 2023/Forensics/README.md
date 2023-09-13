@@ -17,7 +17,7 @@ By Brine
 
 ### 1. Corrupt.jpg
 
-As soon as I downloaded the corrupt.jpg, I can safely presume that the file is most likely going to be corrupt. My mind initially thinks I will need to edit some hex signatures but before I do anything I do a 
+As soon as I downloaded the corrupt.jpg, I can safely presume that the file is most likely going to be corrupt. My mind initially thinks I will need to edit some hex signatures but before I do anything I cat the file
 ```bash
 $cat corrupt.jpg
 ```
@@ -32,7 +32,7 @@ $vi corrupt.jpg
 :%s/CORRUPTED//g
 ```
 	
-The result after I write the file:
+The result after I write the file is a repaired, non-corrupted picture:
 	
 ![Repaired jpg](images/win10.png)
 	
