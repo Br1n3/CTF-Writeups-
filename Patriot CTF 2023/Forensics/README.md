@@ -9,9 +9,8 @@ By Brine
 # Table of Contents 
 
 - [Challenge Text](###Challenge-Text)
-    - [Challenge Text](#challenge-text)
-- [Table of Contents - Optional, but MDAIO can help with this.](#table-of-contents---optional-but-mdaio-can-help-with-this)
-- [Describe Your Thought Processes](#describe-your-thought-processes)
+- [Table of Contents.](#table-of-contents)
+- [Thought Processes](#thought-processes)
     - [1. First Heading](#1-first-heading)
     - [2. Second Heading](#2-second-heading)
       - [2.1 Sub-Heading](#21-sub-heading)
@@ -23,7 +22,7 @@ By Brine
     - [2. The flag](#2-the-flag)
 
 
-# Describe Your Thought Processes
+# Thought Processes
 
 Give a quick primer on what started your path to success; you can include what did and didn't work. Any grand ideas or existing knowledge that lead you to the eventual solution. 
 
