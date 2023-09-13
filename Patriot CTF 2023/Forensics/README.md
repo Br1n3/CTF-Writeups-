@@ -6,9 +6,9 @@ By Brine
 
 ![Challenge:](images/chall.PNG)
 
-# Table of Contents - Optional, but MDAIO can help with this.
+# Table of Contents 
 
-- [Example Write Up](#example-write-up)
+- [Challenge Text](###Challenge-Text)
     - [Challenge Text](#challenge-text)
 - [Table of Contents - Optional, but MDAIO can help with this.](#table-of-contents---optional-but-mdaio-can-help-with-this)
 - [Describe Your Thought Processes](#describe-your-thought-processes)
