@@ -4,7 +4,7 @@ By Brine
 
 ### Challenge Text 
 
-![Challenge:](images/chall.png)
+![Challenge:](images/chall.PNG)
 
 # Table of Contents - Optional, but MDAIO can help with this.
 
