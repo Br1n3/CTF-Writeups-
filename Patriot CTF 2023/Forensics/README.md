@@ -6,20 +6,6 @@ By Brine
 
 ![Challenge:](images/chall.PNG)
 
-# Table of Contents 
-
-- [Challenge Text](###Challenge-Text)
-- [Table of Contents.](#table-of-contents)
-- [Thought Processes](#thought-processes)
-    - [1. First Heading](#1-first-heading)
-    - [2. Second Heading](#2-second-heading)
-      - [2.1 Sub-Heading](#21-sub-heading)
-- [Move on to your main exploit or solutions here.](#move-on-to-your-main-exploit-or-solutions-here)
-    - [1. Structure this the same as above](#1-structure-this-the-same-as-above)
-      - [1.1 It helps make things easy to follow.](#11-it-helps-make-things-easy-to-follow)
-- [Getting the Flag](#getting-the-flag)
-    - [1. If it makes sense, bring the "final attack" down to the bottom to emphasize that *this* was the solution.](#1-if-it-makes-sense-bring-the-final-attack-down-to-the-bottom-to-emphasize-that-this-was-the-solution)
-    - [2. The flag](#2-the-flag)
 
 
 # Thought Processes
