@@ -10,8 +10,6 @@ By Brine
 
 # Thought Processes
 
-Give a quick primer on what started your path to success; you can include what did and didn't work. Any grand ideas or existing knowledge that lead you to the eventual solution. 
-
 - [ ] I always start by doing a ```cat``` on the file. Great for CTFs and gathering clues.
 - [ ] Performing typical forensics on the files got me to the end, but was obstructed by not thinking creatively how they may hide the flag 
 - [ ] I was not thinking outside the box for this challenge, and didnt trust my gut when I did. This led to massive slowdowns 
