@@ -1,6 +1,6 @@
 # Table of Contents
 
-- [Unsupported Format 2](unsupported-format-2)
+- [Unsupported Format 2](#unsupported-format-2)
 - [Congratulations.](#congratulations)
 - [Evil Monkey 1](#evil-monkey-1)
 - [Elbonia](#elbonia)
