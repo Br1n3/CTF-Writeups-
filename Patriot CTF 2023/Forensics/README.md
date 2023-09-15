@@ -133,7 +133,7 @@ By Brine
 
 ### Challenge Text 
 
-![Challenge:](images/monk.PNG)
+![Challenge:](images/monk.png)
 
 
 
@@ -145,7 +145,7 @@ By Brine
 
 Opening the file in Blender we are met with this scene:
 	
-![Blender scene](images/blend1.png)
+![Blender scene](images/blend.png)
 	
 Now there are quite a few ways that people probabaly found the "Evil Monkey" but I happenned to stumble on it just by spinning the camera a bit.
 		
