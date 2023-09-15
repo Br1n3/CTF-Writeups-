@@ -82,3 +82,49 @@ I start the entire process laid out in 1.1 over again on this photo and still ca
 
 `PCTF{00ps_1_L1ed_Th3r3_1s_4_Fl4g}`
 
+
+
+# Congratulations
+
+By Brine
+
+### Challenge Text 
+
+![Challenge:](images/grats.PNG)
+
+
+
+# Thought Processes
+
+- [ ] The file they give is is a .docm so I know the file and challenge is going go involve a word macro.
+
+### 1. Congratulations.docm
+
+First thing I do when I download the file is do a ```cat``` on it to see what clues I can find.
+	
+![cat Result](images/cong.png)
+	
+Unsurprisingly I see the .docm has some .xml files inside of it, which is characteristic of a word file, so I use ```binwalk``` to blow the file open and take a look at each:
+		
+![Repaired jpg](images/bin2.png)
+	
+Looking through each of these files with ```cat``` I find the main content of the word document in ```document.xml```. This is the same content you would see if you simply moved the doument to windows and 
+openend it with Word. The document basically says if you sign the document with docusign you will be presented with a flag. The fact it is a .docm file and the doucment is usp[posedly interactive to get the flag, directs my interest to the macro that performs this function. The macro being: ```vbaProject.bin```.
+	
+
+# Getting the Flag
+
+Doing a ```cat``` on the macro this hex catches my eye:
+	
+![Extracted with binwalk](images/chars.png)
+
+Taking a quick peek at the first two characters in an hex to plain text table I see the characters starting to look like the flag and after converting the rest the flag is revealed.
+
+
+### 2. The flag
+
+`PCTF{3n4bl3_m4cr05_plz_27315670}`
+
+
+
+
