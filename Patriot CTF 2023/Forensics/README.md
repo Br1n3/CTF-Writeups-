@@ -127,4 +127,37 @@ Taking a quick peek at the first two characters in an hex to plain text table I 
 
 
 
+# Evil Monkey 1
+
+By Brine
+
+### Challenge Text 
+
+![Challenge:](images/monk.PNG)
+
+
+
+# Thought Processes
+
+- [ ] Given the crative nature of these challenges so far, I thinnk I should try opening the blender file given to us with blender.
+
+### 1. Blender
+
+Opening the file in Blender we are met with this scene:
+	
+![cat Result](images/blend1.png)
+	
+Now there are quite a few ways that people probabaly found the "Evil Monkey" but I happenned to stumble on it just by spinning the camera a bit.
+		
+![Repaired jpg](images/blend2.png)
+	
+Since the challenege is called Evil Monkey, and the Monkey was hidden behind the stage I assume this is the thing I should be looking for and start to look through its Properties. Doing so, I find the flag:
+
+![Repaired jpg](images/blend3.png)
+	
+
+
+### 2. The flag
+
+`PCTF{Th3_EV1L_M0NK3Y!}`
 
