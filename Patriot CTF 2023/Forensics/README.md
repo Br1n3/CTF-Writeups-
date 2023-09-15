@@ -133,7 +133,7 @@ By Brine
 
 ### Challenge Text 
 
-![Challenge:](images/monk.png)
+![Challenge:](images/monk1.png)
 
 
 
@@ -149,7 +149,7 @@ Opening the file in Blender we are met with this scene:
 	
 Now there are quite a few ways that people probabaly found the "Evil Monkey" but I happenned to stumble on it just by spinning the camera a bit.
 		
-![Hidden Monkey](images/blend2.png)
+![Hidden Monkey](images/blend2.PNG)
 	
 Since the challenege is called Evil Monkey, and the Monkey was hidden behind the stage I assume this is the thing I should be looking for and start to look through its Properties. Doing so, I find the flag:
 
