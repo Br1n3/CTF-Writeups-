@@ -106,7 +106,7 @@ First thing I do when I download the file is do a ```cat``` on it to see what cl
 	
 Unsurprisingly I see the .docm has some .xml files inside of it, which is characteristic of a word file, so I use ```binwalk``` to blow the file open and take a look at each:
 		
-![Repaired jpg](images/bin2.png)
+![binwalk results](images/bin2.png)
 	
 Looking through each of these files with ```cat``` I find the main content of the word document in ```document.xml```. This is the same content you would see if you simply moved the doument to windows and 
 openend it with Word. The document basically says if you sign the document with docusign you will be presented with a flag. The fact it is a .docm file and the doucment is usp[posedly interactive to get the flag, directs my interest to the macro that performs this function. The macro being: ```vbaProject.bin```.
@@ -116,7 +116,7 @@ openend it with Word. The document basically says if you sign the document with 
 
 Doing a ```cat``` on the macro this hex catches my eye:
 	
-![Extracted with binwalk](images/chars.png)
+![hex in the code](images/chars.png)
 
 Taking a quick peek at the first two characters in an hex to plain text table I see the characters starting to look like the flag and after converting the rest the flag is revealed.
 
@@ -145,19 +145,46 @@ By Brine
 
 Opening the file in Blender we are met with this scene:
 	
-![cat Result](images/blend1.png)
+![Blender scene](images/blend1.png)
 	
 Now there are quite a few ways that people probabaly found the "Evil Monkey" but I happenned to stumble on it just by spinning the camera a bit.
 		
-![Repaired jpg](images/blend2.png)
+![Hidden Monkey](images/blend2.png)
 	
 Since the challenege is called Evil Monkey, and the Monkey was hidden behind the stage I assume this is the thing I should be looking for and start to look through its Properties. Doing so, I find the flag:
 
-![Repaired jpg](images/blend3.png)
+![Properties](images/blend3.png)
 	
 
 
 ### 2. The flag
 
 `PCTF{Th3_EV1L_M0NK3Y!}`
+
+
+
+# Elbonia
+
+By Brine
+
+### Challenge Text 
+
+![Challenge:](images/elbo.png)
+
+
+
+# Thought Processes
+
+- [ ] There was no thought utilized for this challenge. I was forced to try every possible solution.
+
+### 1. Wiresharkl
+
+Basically you open the file in Wireshark and see that each line is a single hex of data. I assume that the hex needs to be lined up in a certain way, so I start lookinng for PCTF{ by sorting the captures every way imaginable. After hours of trying every variation of sorting, values, and conversion I find the solution. It was the value of the source ports, in transmission order, decoded from decimal. sigh.
+	
+![Correct order sort](images/elbo2.png)
+
+### 2. The flag
+
+`PCTF{53cr3t_c0d3_1n_p0rt5}`
+
 
